@@ -112,6 +112,8 @@ class Shop {
 class App {
   static cart;
 
+  //main app
+
   static init() {
     const shop = new Shop();
     shop.render();
