@@ -110,7 +110,7 @@ class ProductList extends Component {
 
   constructor(renderHookId) {
     super(renderHookId);
-    this.fetchProducts();
+    this.fetchProducts(); //fetching 
   }
 
   fetchProducts() {
