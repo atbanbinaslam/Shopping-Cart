@@ -23,7 +23,7 @@ class Component {
     }
   }
   
-  render() {} //The program will override this render with the render in the sub class. When new object is created/instantiated..
+  render() {} //The program will override this render with the render inthe sub class. When new object is created/instantiated..
 
   createRootElement(tag, cssClasses, attributes) {
     const rootElement = document.createElement(tag);
